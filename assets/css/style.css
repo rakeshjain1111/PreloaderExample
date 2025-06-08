@@ -1,0 +1,42 @@
+body{
+    background:#0cfc00;
+}
+
+#second{
+    background: #00ff;
+}
+
+#thrid{
+    background: #f0ff;
+}
+
+#forth{
+    background: #f00000;
+}
+
+.center{
+    display: fixed;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+    padding: 5px;
+    background-color: #000;
+}
+
+
+
+   /* preloader section start */
+   #preloader{
+    background: #000000fb url(../img/loader2.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  /* preloader section end */
